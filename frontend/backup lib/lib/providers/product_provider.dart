@@ -4,7 +4,7 @@ import 'dart:convert';
 import '../models/product.dart';
 
 class ProductProvider with ChangeNotifier {
-  final String baseUrl = 'http://192.168.1.22:3000/api/products';
+  final String baseUrl = 'http://192.168.1.2:3000/api/products';
   List<Product> _products = [];
 
   List<Product> get products => [..._products];
